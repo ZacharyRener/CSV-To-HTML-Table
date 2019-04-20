@@ -1,0 +1,27 @@
+<!--
+--------------
+Programmer:  Zachary Rener
+Course:      ITSE-1306 (Intro to PHP)
+Instructor:  Cesar "Coach" Marrero
+Assignment:  Week 12 - Lab
+Description: Generates a table based on a CSV file parsed in a PHP script
+--------------
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Week 12 - Lab</title>
+    <?php require("bootstrap-source.php"); ?>
+    <style>
+        table{ width: 50vw; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <?php require("printTableFromFile.php"); ?>
+    </div>
+</body>
+</html>

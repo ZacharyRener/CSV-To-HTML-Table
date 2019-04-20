@@ -1,0 +1,16 @@
+<?php
+# --------------
+# -- Programmer:  Zachary Rener
+# -- Course:      ITSE-1306 (Intro to PHP)
+# -- Instructor:  Cesar "Coach" Marrero
+# -- Assignment:  Week 12 - Lab
+# -- Description: Bootstrap CDN files. Added this file for readability.
+# -- https://getbootstrap.com/docs/4.1/getting-started/download/
+# ---------------
+echo'
+<!-- Start Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- End Bootstrap -->
+';
+?>
